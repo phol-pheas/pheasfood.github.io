@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar -->
+     <div class="navbar navbar-expand-sm">
+        <div class="container">
+          <a href="/index.html" style="color: rgb(238, 11, 106);" class="text-decoration-none fs-4"><img src="../img/logo foodpanda.png" style="width: 50px;">Foodpanda</a>
+          <div class="login">
+            <a href="../componets/Login.html"><button class="btn border">Log In</button></a>
+            <a href="../componets/Signup.html"><button class="btn" style="background-color: rgb(238, 11, 106); color: aliceblue;">Sign Up</button></a>
+          </div>
+          <div class="dropdown">
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+              <i class="fa-solid fa-globe"></i> EN
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Khmer</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Chines</a></li>
+            </ul>
+              <i class="fa-solid fa-gift" style="font-size: 18px;"><sup style="color: rgb(238, 11, 106);">99+</sup></i>
+          </div>
+        </div>
+     </div>
+
+     <!-- body -->
+
+
+<div class="container-fluid">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/Bgfood22.png" class=" img d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Gbfoodpd1.png" class=" img d-block" style="width:100%">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- card login -->
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-sm col-md col-lg col-xl col-xxl">
+            <div class="card mt-4 p-2">
+                <h2 class="text-center">Log In</h2>
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn text-white" style="background-color: rgb(238, 11, 106);">Submit</button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- tittle -->
+<div class="container-fluid">
+  <div class="body mt-5">
+    <h2 class="text-start">You prepare the food, we handle the rest</h2>
+     <div class="body-img mt-5">
+     <img src="../img/bodyfood.png" style="width: 100%;">
+    </div>
+  </div>
+ 
+<hr>
+
+<!-- footer -->
+ 
+<div class="container-fluid " style="background-color: rgb(238, 11, 106);">
+  <div class="img text-center">
+    <img src="../img/foodbg.png" style="width: 350px;height: 250px;">
+  </div>
+  <div class="row mt-4 text-white ms-5">
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+      <h5>©foodpanda</h5>
+      <p>Find a restaurant</p>
+      <p>Choose your dishes</p>
+      <p>Checkout & Payment</p>
+      <p>Delivery</p>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+      <h5>Food</h5>
+      <p>The Pizza Company</p>
+      <p>Big Apple Donuts & Coffee</p>
+      <p>Little Sheep Hot Pot</p>
+      <p>ChiCha San Chen 吃茶三千</p>
+      <p>Coffee Today</p>
+      <p>KFC</p>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+      <h5>Contries</h5>
+      <p>American</p>
+      <p>Indian</p>
+      <p>Korean</p>
+      <p>Asian</p>
+      <p>Chinese</p>
+      <p>Turkish</p>
+      <p>Japanese</p>
+      <div class="icon d-flex fs-5 p-2" style="gap: 12px;">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+     
+     
+</body>
+</html>
+
